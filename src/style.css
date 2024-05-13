@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Sedan SC", serif;
+  color: #1d2130;
+}
+
+.home-banner {
+  background: url(./assets/svg/almajir.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.app-width {
+  @apply max-w-[1440px] mx-auto px-5 lg:px-12;
+}
