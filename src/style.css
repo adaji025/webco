@@ -7,8 +7,15 @@ body {
   color: #1d2130;
 }
 
-.home-banner {
+.section1 {
   background: url(./assets/svg/almajir.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.abuja {
+  background: url(./assets/svg/abuja.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
