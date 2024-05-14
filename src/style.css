@@ -21,6 +21,13 @@ body {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.woman {
+  background: url(./assets/svg/woman.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .app-width {
   @apply max-w-[1440px] mx-auto px-5 lg:px-12;
