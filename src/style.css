@@ -32,3 +32,24 @@ body {
 .app-width {
   @apply max-w-[1440px] mx-auto px-5 lg:px-12;
 }
+
+.video-5 {
+  background: url(./assets/video/5.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-6 {
+  background: url(./assets/video/6.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-7 {
+  background: url(./assets/video/7.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-8 {
+  background: url(./assets/video/8.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

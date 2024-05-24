@@ -83,6 +83,61 @@ const Home = () => {
       <div className="">
         <img src={PartnersLogo} alt="" className="" />
       </div>
+
+      <div className="video-5 h-screen text-white">
+        <div className="pt-20 lg:w-[70%] lg:ml-auto">
+          <div className="bg-black/50 p-5 w-max font-bold sm:text-4xl lg:text-[56px] rounded-xl">
+            Carbon Emission Reduction
+          </div>
+          <div className="bg-black/50 p-5 rounded-xl">
+            We are implementing carbon emission project through advanced
+            technologies ans sustainable practices. Our efforts are aimed at
+            decreasing carbon footprints significally aligning with global
+            climate change mitigation goal
+          </div>
+        </div>
+      </div>
+
+      <div className="video-6 h-screen text-white">
+        <div className="pt-20 lg:w-[70%] lg:ml-auto">
+          <div className="bg-black/50 p-5 w-max font-bold sm:text-4xl lg:text-[56px] rounded-xl">
+            Carbon Emission Reduction
+          </div>
+          <div className="bg-black/50 p-5 rounded-xl">
+            We are implementing carbon emission project through advanced
+            technologies ans sustainable practices. Our efforts are aimed at
+            decreasing carbon footprints significally aligning with global
+            climate change mitigation goal
+          </div>
+        </div>
+      </div>
+
+      <div className="video-7 h-screen flex flex-col justify-center text-white">
+        <div className="lg:w-[70%] lg:ml-auto">
+          <div className="bg-black/50 p-5 w-max font-bold sm:text-4xl lg:text-[56px] rounded-xl">
+            Carbon Emission Reduction
+          </div>
+          <div className="bg-black/50 p-5 rounded-xl">
+            We are implementing carbon emission project through advanced
+            technologies ans sustainable practices. Our efforts are aimed at
+            decreasing carbon footprints significally aligning with global
+            climate change mitigation goal
+          </div>
+        </div>
+      </div>
+
+      <div className="video-8 h-screen flex flex-col justify-center text-white px-10">
+        <div className="lg:w-[50%] lg:ml-auto">
+          <div className="bg-black/50 p-5 w-max font-bold sm:text-4xl lg:text-[56px] rounded-xl">
+            Water Filteration
+          </div>
+          <div className="bg-black/50 p-5 rounded-xl">
+            Our cutting-edge water Filteration system ustilizes advanced
+            technologies to efficiently remove impurities ensuring clean and
+            safe drinking water
+          </div>
+        </div>
+      </div>
       <Footer />
     </Fragment>
   );
