@@ -170,7 +170,7 @@ const Home = () => {
                     <li><span className="text-ub">O</span>pportunities for the Local Community</li>
                     <li><span className="text-ub">I</span>ntegrity in our Work</li>
                     <li><span className="text-ub">S</span>ustainable Future</li>
-                    <li><span className="text-ub">T</span>Together We Can Make a Difference</li>
+                    <li><span className="text-ub">T</span>ogether We Can Make a Difference</li>
                   </ul>
               </div>
         </div>
