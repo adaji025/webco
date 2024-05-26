@@ -52,4 +52,9 @@ body {
   background: url(./assets/video/8.gif);
   background-repeat: no-repeat;
   background-size: cover;
+}  
+
+.text-ub{
+  font-weight: bold;
+  text-decoration: underline;
 }
