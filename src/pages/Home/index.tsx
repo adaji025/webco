@@ -101,28 +101,27 @@ const Home = () => {
       <div className="video-6 h-screen text-white">
         <div className="pt-20 lg:w-[70%] lg:ml-auto">
           <div className="bg-black/50 p-5 w-max font-bold sm:text-4xl lg:text-[56px] rounded-xl">
-            Carbon Emission Reduction
+            Pet Recycling
           </div>
           <div className="bg-black/50 p-5 rounded-xl">
-            We are implementing carbon emission project through advanced
-            technologies ans sustainable practices. Our efforts are aimed at
-            decreasing carbon footprints significally aligning with global
-            climate change mitigation goal
+            We safeguard our environment, by prioritizing the principle of 3R's : (Reduce, Reuse and Recycle).
+            We commit to the circular economy, by preventing recyclable plastics from entering landfalls and 
+            polluting the environment.
           </div>
         </div>
       </div>
 
-      <div className="video-7 h-screen flex flex-col justify-center text-white">
-        <div className="lg:w-[70%] lg:ml-auto">
-          <div className="bg-black/50 p-5 w-max font-bold sm:text-4xl lg:text-[56px] rounded-xl">
-            Carbon Emission Reduction
+      <div className="video-7 pt-10 h-screen text-white lg:pt-20">
+        <div className="lg:w-[90%] lg:m-auto">
+          <div className="bg-black/50 p-5 w-100 font-bold text-center sm:text-4xl lg:text-[56px] rounded-xl ">
+            Fuel Efficient Stove: Easy Stove - F1 Model
           </div>
-          <div className="bg-black/50 p-5 rounded-xl">
+          {/* <div className="bg-black/50 p-5 rounded-xl">
             We are implementing carbon emission project through advanced
-            technologies ans sustainable practices. Our efforts are aimed at
-            decreasing carbon footprints significally aligning with global
-            climate change mitigation goal
-          </div>
+            technologies and sustainable practices. Our efforts are aimed at
+            decreasing carbon footprints significally, aligning with global
+            climate change mitigation goal.
+          </div> */}
         </div>
       </div>
 
@@ -132,12 +131,50 @@ const Home = () => {
             Water Filteration
           </div>
           <div className="bg-black/50 p-5 rounded-xl">
-            Our cutting-edge water Filteration system ustilizes advanced
-            technologies to efficiently remove impurities ensuring clean and
+            Our cutting-edge water Filteration system utilizes advanced
+            technologies to efficiently remove impurities, ensuring clean and
             safe drinking water
           </div>
         </div>
-      </div>
+      </div> 
+  
+      <div className="h-screen mt-5">
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+              <div className="flex-1 bg-white p-10">
+                  <h2 className="text-xl text-center font-bold font-sans mb-4 sm:text-4xl lg:text-[56px]">Our Vision</h2>
+                  <p className="text-xl font-sans">We, at Ecoist aim to become recognised as a leading ​advocate of “Green Economy” 
+                    in Nigeria, where humanity ​and nature is valued and protected by everyone.</p>
+              </div>
+              <div className="flex-1 bg-white p-10">
+                <h2 className="text-xl text-center font-bold font-sans mb-4 sm:text-4xl lg:text-[56px]">Our Mission</h2>
+                <p className="text-xl font-sans ">We are focused on climate-neutral business ​opportunities that promote action for “Greener ​Future” in collaboration with individuals mainly ​women, communities, voluntary organisations, ​businesses, local authorities, and government ​agencies.</p>
+              </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+              <div className="flex-1 bg-white p-10">
+                  <h2 className="text-xl text-center font-bold font-sans mb-4 sm:text-4xl lg:text-[56px]">Objectives</h2> 
+                  <ul className="list-disc list-inside text-xl font-sans">
+                  <li>To reducing greenhouse gas emissions and foster a ​green economy</li>
+                    <li>To focusing on climate-neutral business opportunities ​that promote action for “Greener Future”</li>
+                    <li>To collaborating with individuals mainly women, ​communities, voluntary organisations, businesses, ​local authorities, and government agencies.</li>
+                    <li>To accelerating the process of decarbonising the ​environment by prioritizing integrity throughout our ​projects</li>
+                  </ul>
+              </div>
+
+              <div className="flex-1 bg-white p-10">
+                <h2 className="text-xl text-center font-bold font-sans mb-4 sm:text-4xl lg:text-[56px]">Core values</h2>
+                <ul className="text-xl font-sans"> 
+                    <li><span className="text-ub">E</span>nvironmental Preservation</li>
+                    <li><span className="text-ub">C</span>ommitment to Fight Climate Change</li>
+                    <li><span className="text-ub">O</span>pportunities for the Local Community</li>
+                    <li><span className="text-ub">I</span>ntegrity in our Work</li>
+                    <li><span className="text-ub">S</span>ustainable Future</li>
+                    <li><span className="text-ub">T</span>ogether We Can Make a Difference</li>
+                  </ul>
+              </div>
+        </div>
+    </div>
       <Footer />
     </Fragment>
   );
