@@ -6,7 +6,9 @@ import { MdOutlineEmail } from "react-icons/md";
 import PartnersLogo from "../../assets/partners-logo.svg";
 
 import { useEffect } from "react";
-import Slider from "../../components/Slider";
+import Team from "../../components/Team";
+import Slider from "../../components/Slider"; 
+import Newsletter from "../../components/Newsletter"; 
 
 const Home = () => {
   useEffect(() => {
@@ -220,8 +222,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      <Slider />
+      <Team /> 
+      <Slider /> 
+      <Newsletter />
       <Footer />
     </Fragment>
   );

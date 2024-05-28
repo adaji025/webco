@@ -1,0 +1,26 @@
+/* TeamSection.css */
+.team-container {
+    margin-top: 100px;
+}
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 130px;
+    margin-bottom: 100px;
+    max-width: 100%;
+  }
+  
+  .team-member {
+    flex: 1 1 30%;
+    margin: 20px;
+    text-align: start;
+  }
+  
+  .team-member-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  } 
+
+  
