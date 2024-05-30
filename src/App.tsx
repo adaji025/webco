@@ -10,7 +10,7 @@ export default function App() {
     <MantineProvider theme={theme}>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>webco</title>
+        <title>ecosist</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Routes>
